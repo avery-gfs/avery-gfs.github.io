@@ -9,6 +9,6 @@ mkdir -p sorting
 pwd
 cp -r "$base"/cs3/sorting/*.html sorting
 
-echo "# Pages" > README.md
+echo "# Links" > README.md
 echo "" >> README.md
 find . -type f -name "*.html" | sed 's/\(.*\)/\- [\1](\1)/' >> README.md
