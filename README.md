@@ -1,1 +1,0 @@
-# avery-gfs.github.io
