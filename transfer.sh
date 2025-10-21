@@ -3,7 +3,7 @@
 base="../classes/solutions"
 
 mkdir -p turing
-cp -r "$base/tech/turing/index.html" turing
+cp -r "$base/tech/turing/*" turing
 
 mkdir -p sorting
 pwd
