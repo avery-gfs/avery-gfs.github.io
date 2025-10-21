@@ -2,10 +2,9 @@
 
 base="../classes/solutions"
 
-mkdir -p turing
-cp -r "$base/tech/turing/*" turing
-
-mkdir -p sorting
+trash turing sorting
+mkdir -p turing sorting
+cp -r "$base"/tech/turing/* turing
 cp -r "$base"/cs3/sorting/*.html sorting
 
 echo "<!DOCTYPE html>" > index.html
